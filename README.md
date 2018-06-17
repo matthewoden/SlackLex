@@ -1,10 +1,9 @@
 # SlackLex
 
-A small example project using [Hedwig](https://hexdocs.pm/hedwig), it's slack adapter and [Lex](https://github.com/matthewoden/lex) to create a broker between the AWS Lex service and slack.
+A small example project using [Hedwig](https://hexdocs.pm/hedwig), my own [fork of the slack adapter](https://github.com/matthewoden/hedwig_slack) and the [Lex](https://github.com/matthewoden/lex) library to create a broker between the AWS Lex service and slack.
 
-WIP, based off a personal slackbot
+Hedwig isn't required to use the Lex library - but not every slackbot needs complex natural language processing.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/slack_lex](https://hexdocs.pm/slack_lex).
+Example is a WIP, based off a personal slackbot. Use at your own peril.
+
 
